@@ -1,0 +1,50 @@
+@import "../../index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;600&display=swap');
+
+.app-header {
+  width: 100%;
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gabriela', serif;
+
+  @media (max-width: 380px) {
+    flex-direction: column;
+  }
+
+  .header_menu {
+    width: 100%;
+  }
+
+  .menu__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    @include adaptiv-font(18, 12);
+
+    .menu__item:not(:first-child) {
+      margin-left: 30px;
+
+      .header-logo {
+        max-width: 200px;
+        height: auto;
+        border-radius: 200px;
+      }
+    }
+
+    a {
+      color: #656563;
+    }
+
+    img {
+      max-width: 30px;
+      height: auto;
+      cursor: pointer;
+    }
+  }
+}
