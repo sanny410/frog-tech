@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "LIGANDROL LGD-4033 30 капсул FROGTECH Platinum",
+    "descr": "Значительный прирост мышечной массы и силы. Легален. Снижение жира. Эффективен.",
+    "price": 2490,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3056076278.jpg",
+    "sale": true,
+    "discount": 0.2
+  },
+  {
+    "id": 2,
+    "name": "Ibutamoren 25mg (Nutrobol, MK 677) 30 капсул FROGTECH Platinum",
+    "descr": "Снижение жировой прослойки в организме и значительное сжигание подкожного жира. Увеличение общей и специальной выносливости и тд",
+    "price": 2990,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055562721.jpg",
+    "sale": true,
+    "discount": 0.2
+  },
+  {
+    "id": 3,
+    "name": "S23 25mg 30 капсул FROGTECH Platinum",
+    "descr": "Рост мышечной массы, Сжигание жира, Укрепление костей - SARMS нового поколения",
+    "price": 2990,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055562631.jpg",
+    "sale": false,
+    "discount": 0
+  },
+  {
+    "id": 4,
+    "name": "Ибутаморен + ACP105 (Ibutamoren 25mg (Nutrobol, MK 677, Ибутаморен) 30 капсул + ACP105 10mg 30 капсул FROGTECH Platinum",
+    "descr": "",
+    "price": 5980,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3185865766.jpg",
+    "sale": true,
+    "discount": 0.4
+  },
+  {
+    "id": 5,
+    "name": "Icariin 120 caps (400mg Icariin 20%, икариин, экстракт горянки) FROGTECH Platinum",
+    "descr": "ПКТ, Поддерживает уровень тестостерона, Усиливает длительность и силу влечения, повышает либидо, улучшает эректильную функцию.",
+    "price": 1990,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055743355.jpg",
+    "sale": false,
+    "discount": 0
+  },
+  {
+    "id": 6,
+    "name": "Ecdysterone 100% 30 caps (375mg) (экдистерон) FROGTECH Platinum",
+    "descr": "Ускоренное восстановление. Экдистерон является отличным адаптогеном. Рост силовых показателей. Повышает рабочие веса до 30%!",
+    "price": 2390,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055639625.jpg",
+    "sale": true,
+    "discount": 0.15
+  },
+  {
+    "id": 7,
+    "name": "Euricoma 100:1 400mg 60 caps (эврикома, тонгкат али) FROGTECH Platinum",
+    "descr": "Мощный натуральный афродизиак, повышение силы, тестостерона, антидепрессивный эффект, настроение повышается",
+    "price": 3500,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3145395560.jpg",
+    "sale": true,
+    "discount": 0.1
+  },
+  {
+    "id": 8,
+    "name": "AC 262 10mg (accadine, sarmastol, акадин, сармастол) 30 капсул FROGTECH Platinum",
+    "descr": "Способствует глобальному росту сухой мышечной массы. Укрепляет костную и хрящевую ткань.",
+    "price": 2490,
+    "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055562661.jpg",
+    "sale": false,
+    "discount": 0
+  }
+]
