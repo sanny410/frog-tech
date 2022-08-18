@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frog-tech/static/css/main.4cf94aeb.css",
+    "main.js": "/frog-tech/static/js/main.467956ac.js",
+    "static/media/fon.jpg": "/frog-tech/static/media/fon.dc32f1d35cf412317351.jpg",
+    "static/media/1.jpg": "/frog-tech/static/media/1.cbf3f369654656db254c.jpg",
+    "static/media/2.jpg": "/frog-tech/static/media/2.e8f1b9b3fe0d1cac7882.jpg",
+    "static/media/3.jpg": "/frog-tech/static/media/3.01115f7266b93048e4d4.jpg",
+    "static/media/Logo.jpg": "/frog-tech/static/media/Logo.5afa04b796411a39c473.jpg",
+    "static/media/original.png": "/frog-tech/static/media/original.b2ea8e74b100b8850f1d.png",
+    "static/media/user.png": "/frog-tech/static/media/user.33e7df0963941edbeb70.png",
+    "index.html": "/frog-tech/index.html",
+    "main.4cf94aeb.css.map": "/frog-tech/static/css/main.4cf94aeb.css.map",
+    "main.467956ac.js.map": "/frog-tech/static/js/main.467956ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cf94aeb.css",
+    "static/js/main.467956ac.js"
+  ]
+}
