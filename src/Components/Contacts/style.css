@@ -1,0 +1,24 @@
+.page__contacts {
+  width: 100%;
+  height: 90vh;
+}
+.page__contacts .contacts-title {
+  margin: 20px 0 20px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 20px;
+  color: #000000;
+}
+.page__contacts .contacts-subtitle {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.page__contacts li {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

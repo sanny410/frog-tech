@@ -1,0 +1,69 @@
+.page__about-us {
+  width: 100%;
+}
+.page__about-us ._container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.page__about-us .title {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.page__about-us .subtitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.page__about-us .about-us__brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.page__about-us .about-us__brands img {
+  display: block;
+  max-width: 300px;
+}
+.page__about-us .logo {
+  margin: 25px;
+}
+.page__about-us .info {
+  width: 40%;
+}
+.page__about-us .info .text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.page__about-us .about-us ._container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page__about-us .about-us__platinum {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../../assets/icons/fonPlatina.png") no-repeat center center;
+  background-size: cover;
+}
+.page__about-us .about-us__green-frog {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../../assets/GreenLineFon.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

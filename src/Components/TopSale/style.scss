@@ -1,18 +1,18 @@
 .app__top-sale {
   width: 100%;
-  margin-top: 40px;
   padding-top: 20px;
-  background-color: white;
+  padding-bottom: 20px;
+  background: linear-gradient(180deg, #000000 53.01%, rgba(0, 0, 0, 0) 100%);
 
   .top-sale__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Gabriela', serif;
     padding-top: 20px;
 
     .top-sale__title {
       margin: 30px 0;
+      color: white;
     }
 
     .top-sale__list {
@@ -22,32 +22,43 @@
       gap: 20px;
 
       .card__item {
+        min-height: 300px;
         display: grid;
-        grid-template-rows: 30px auto auto auto 20px 20px 40px;
+        grid-template-rows: auto auto 55px;
         padding: 5px 15px 10px 15px;
-        border: 1px solid #9B9B99;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
         gap: 10px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
 
         .card__sale {
-          width: 50%;
           border-radius: 20px;
           justify-content: center;
           align-items: center;
           color: white;
           text-transform: uppercase;
           background-color: #FF8500;
-          padding: 5px 10px;
+          padding: 10px 10px;
           margin: 0 auto;
+
 
           &.hide {
             opacity: 0;
           }
         }
 
+        .card__title {
+          font-weight: 500;
+          font-size: 1.2rem;
+          line-height: 20px;
+          margin-top: 10px;
+        }
+
         .card__descr {
           font-size: 0.9rem;
           opacity: 0.7;
+          font-weight: 500;
+          line-height: 20px;
         }
 
         .card__price-block {
@@ -60,17 +71,23 @@
           .card__price {
             font-size: 1.5rem;
             color: #FF8500;
+            font-weight: 500;
+            line-height: 19px;
 
             &.old {
               font-size: 1rem;
               color: #9B9B99;
               text-decoration: line-through;
+              font-weight: 700;
+              line-height: 14px;
             }
           }
 
           .card__discount-price {
             font-size: 1.5rem;
             color: #FF8500;
+            font-weight: 700;
+            line-height: 23px;
 
             &.hide {
               opacity: 0;
@@ -79,15 +96,15 @@
         }
 
 
-        .card__counter {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-
-          &.hide {
-            opacity: 0;
-          }
+        .btn_buy {
+          background: linear-gradient(180deg, #000000 25%, rgba(0, 0, 0, 0.13) 100%);
+          mix-blend-mode: normal;
+          border-radius: 20px;
+          font-weight: 500;
+          font-size: 1.2rem;
+          line-height: 16px;
+          color: white;
+          margin-bottom: 10px;
         }
 
       }

@@ -1,0 +1,74 @@
+.app-catalog {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.app-catalog .title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.app-catalog .catalog__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: stretch;
+  gap: 20px 15px;
+  margin-bottom: 20px;
+}
+.app-catalog .catalog__list .list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  max-width: 340px;
+  min-height: 420px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  border: 1px solid rgba(188, 188, 188, 0.2);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+}
+.app-catalog .catalog__list .list__item.lgd {
+  background: url("../../assets/goods/lgd.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item.icariin {
+  background: url("../../assets/goods/icariin.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item.dmba {
+  background: url("../../assets/goods/dmba.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item.lipo-star {
+  background: url("../../assets/goods/lipo-star.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item.ecd {
+  background: url("../../assets/goods/ecd.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item.alpha-gpc {
+  background: url("../../assets/goods/alpha-gpc.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item.htp {
+  background: url("../../assets/goods/5-htp.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item.pau-d-arco {
+  background: url("../../assets/goods/pau-d-arco.jpg") center;
+  background-size: cover;
+}
+.app-catalog .catalog__list .list__item p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

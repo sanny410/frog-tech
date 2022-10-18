@@ -1,5 +1,4 @@
 @import "../../index.scss";
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;600&display=swap');
 
 .app-header {
   width: 100%;
@@ -8,7 +7,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: 'Gabriela', serif;
+  background: #000000;
+  border-color: black;
 
   @media (max-width: 380px) {
     flex-direction: column;
@@ -24,27 +24,56 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     @include adaptiv-font(18, 12);
+    border-color: black;
 
-    .menu__item:not(:first-child) {
-      margin-left: 30px;
+    .header__contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 2rem;
+    }
+
+    .menu__item {
+      list-style-type: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+
+      &.header__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+      a {
+        color: #FFFFFF;
+      }
 
       .header-logo {
-        max-width: 200px;
+        max-width: 230px;
         height: auto;
-        border-radius: 200px;
+      }
+
+      button {
+        background: linear-gradient(186.38deg, #000000 49.97%, #FFFFFF 94.97%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        color: white;
+        padding: 7px 24px;
       }
     }
 
-    a {
-      color: #656563;
-    }
-
-    img {
-      max-width: 30px;
-      height: auto;
-      cursor: pointer;
+    .menu__item:not(:first-child) {
+      margin-left: 30px;
     }
   }
 }

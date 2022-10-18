@@ -1,13 +1,15 @@
 import React from 'react';
-import CatalogList from "../CatalogList/CatalogList";
-import SliderActions from "../Slider/SliderActions";
 import './style.scss'
+import TopSale from "../TopSale/TopSale";
+import Benefits from "../Benefits/Benefits";
+import HomePage from "../HomePage/HomePage";
 
 const MainPage = () => {
     return (
-        <div className="app__main-page _container">
-            <CatalogList />
-            <SliderActions />
+        <div className="main-page">
+            <HomePage />
+            <TopSale />
+            <Benefits />
         </div>
     );
 };

@@ -1,35 +1,31 @@
 import React from 'react';
 import './style.scss'
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
     return (
-        <div className="app-header _container">
-            <nav className="header_menu">
+        <div className="app-header">
+            <nav className="header_menu _container">
                 <ul className="menu__list">
                     <li className="menu__item">
-                        <a href="#">Акции</a>
+                        <Link to="/"><img className="header-logo" src={require('../../assets/icons/output-onlinepngtools.png')} alt="" /></Link>
                     </li>
                     <li className="menu__item">
-                       <a href="#">Оплата и доставка</a>
+                        <Link to="/catalog">Каталог</Link>
                     </li>
                     <li className="menu__item">
-                        <a href="#">Отзывы</a>
+                       <Link to="/delivery"> Оплата и доставка</Link>
                     </li>
                     <li className="menu__item">
-                        <img className="header-logo" src={require('../../assets/icons/Logo.jpg')} alt="" />
+                        <Link to="/about-us">О нас</Link>
                     </li>
                     <li className="menu__item">
-                        <a href="#">О нас</a>
+                        <Link to="/contacts">Контакты</Link>
                     </li>
-                    <li className="menu__item">
-                        <a href="#">Контакты</a>
-                    </li>
-                    <li className="menu__item">
-                        <img className="menu-icon" src={require('../../assets/icons/user.png')} alt="Профиль"/>
-                    </li>
-                    <li className="menu__item">
-                        <img className="menu-icon" src={require('../../assets/icons/shopping-cart.png')} alt="Корзина"/>
+                    <li className="header__contacts menu__item">
+                        <div>+79623832239 - Опт</div>
+                        <div>+79673410183 - Розница</div>
                     </li>
                 </ul>
             </nav>
