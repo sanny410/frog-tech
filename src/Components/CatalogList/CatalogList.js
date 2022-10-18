@@ -1,7 +1,6 @@
 import React from 'react';
-import Card from "../TopSale/Card";
 
-const CatalogList = ({list}) => {
+const CatalogList = () => {
     return (
         <div className="catalog-list _container">
 
