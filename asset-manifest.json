@@ -1,20 +1,33 @@
 {
   "files": {
-    "main.css": "/frog-tech/static/css/main.4cf94aeb.css",
-    "main.js": "/frog-tech/static/js/main.467956ac.js",
-    "static/media/fon.jpg": "/frog-tech/static/media/fon.dc32f1d35cf412317351.jpg",
-    "static/media/1.jpg": "/frog-tech/static/media/1.cbf3f369654656db254c.jpg",
-    "static/media/2.jpg": "/frog-tech/static/media/2.e8f1b9b3fe0d1cac7882.jpg",
-    "static/media/3.jpg": "/frog-tech/static/media/3.01115f7266b93048e4d4.jpg",
+    "main.css": "/frog-tech/static/css/main.2cd1f710.css",
+    "main.js": "/frog-tech/static/js/main.e28d9d44.js",
+    "static/media/WhyMeFon.png": "/frog-tech/static/media/WhyMeFon.7ab8da36fe2e9679beb2.png",
+    "static/media/GreenLineFon.png": "/frog-tech/static/media/GreenLineFon.2bab8eb3dc0cdfea2454.png",
+    "static/media/fon.png": "/frog-tech/static/media/fon.525f2a6aa4eb565c13af.png",
+    "static/media/fonPlatina.png": "/frog-tech/static/media/fonPlatina.96210e671870087bf758.png",
+    "static/media/oplata.png": "/frog-tech/static/media/oplata.5400ea4b45a827f0d739.png",
+    "static/media/lgd.jpg": "/frog-tech/static/media/lgd.f6dc43f5f11bab443cb6.jpg",
+    "static/media/baicalLogo.png": "/frog-tech/static/media/baicalLogo.612c812fe9ad0d3b20fb.png",
+    "static/media/pau-d-arco.jpg": "/frog-tech/static/media/pau-d-arco.5661c12161d77153ab3b.jpg",
+    "static/media/lipo-star.jpg": "/frog-tech/static/media/lipo-star.7376ece7aca96c431a72.jpg",
+    "static/media/alpha-gpc.jpg": "/frog-tech/static/media/alpha-gpc.ab200783892babd7577b.jpg",
+    "static/media/dmba.jpg": "/frog-tech/static/media/dmba.0faee6a4b6f9a8bfd7a2.jpg",
+    "static/media/ecd.jpg": "/frog-tech/static/media/ecd.04c8fc44d59f797dc934.jpg",
+    "static/media/5-htp.jpg": "/frog-tech/static/media/5-htp.ff901ed00fafb0611a18.jpg",
+    "static/media/icariin.jpg": "/frog-tech/static/media/icariin.61fce0df3dfe29b97947.jpg",
+    "static/media/output-onlinepngtools.png": "/frog-tech/static/media/output-onlinepngtools.4a9a860695663fa6ef12.png",
     "static/media/Logo.jpg": "/frog-tech/static/media/Logo.5afa04b796411a39c473.jpg",
-    "static/media/original.png": "/frog-tech/static/media/original.b2ea8e74b100b8850f1d.png",
-    "static/media/user.png": "/frog-tech/static/media/user.33e7df0963941edbeb70.png",
+    "static/media/logoPlatinaWithoutFon.png": "/frog-tech/static/media/logoPlatinaWithoutFon.ea3d03d1a7b11fb75c11.png",
+    "static/media/dostavista.png": "/frog-tech/static/media/dostavista.9d9a07b6414808fbaa17.png",
+    "static/media/logo.png": "/frog-tech/static/media/logo.d1286c9912e9c824026f.png",
+    "static/media/сдэк.png": "/frog-tech/static/media/сдэк.0c5c36c6a67fe5343904.png",
     "index.html": "/frog-tech/index.html",
-    "main.4cf94aeb.css.map": "/frog-tech/static/css/main.4cf94aeb.css.map",
-    "main.467956ac.js.map": "/frog-tech/static/js/main.467956ac.js.map"
+    "main.2cd1f710.css.map": "/frog-tech/static/css/main.2cd1f710.css.map",
+    "main.e28d9d44.js.map": "/frog-tech/static/js/main.e28d9d44.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cf94aeb.css",
-    "static/js/main.467956ac.js"
+    "static/css/main.2cd1f710.css",
+    "static/js/main.e28d9d44.js"
   ]
 }
