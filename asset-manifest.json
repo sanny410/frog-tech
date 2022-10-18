@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frog-tech/static/css/main.86f0796d.css",
-    "main.js": "/frog-tech/static/js/main.21d1a630.js",
+    "main.js": "/frog-tech/static/js/main.d1140301.js",
     "static/media/WhyMeFon.png": "/frog-tech/static/media/WhyMeFon.7ab8da36fe2e9679beb2.png",
     "static/media/GreenLineFon.png": "/frog-tech/static/media/GreenLineFon.2bab8eb3dc0cdfea2454.png",
     "static/media/fon.png": "/frog-tech/static/media/fon.525f2a6aa4eb565c13af.png",
@@ -24,10 +24,10 @@
     "static/media/сдэк.png": "/frog-tech/static/media/сдэк.0c5c36c6a67fe5343904.png",
     "index.html": "/frog-tech/index.html",
     "main.86f0796d.css.map": "/frog-tech/static/css/main.86f0796d.css.map",
-    "main.21d1a630.js.map": "/frog-tech/static/js/main.21d1a630.js.map"
+    "main.d1140301.js.map": "/frog-tech/static/js/main.d1140301.js.map"
   },
   "entrypoints": [
     "static/css/main.86f0796d.css",
-    "static/js/main.21d1a630.js"
+    "static/js/main.d1140301.js"
   ]
 }
