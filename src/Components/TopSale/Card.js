@@ -4,7 +4,7 @@ import './style.scss'
 const Card = ({ descr,  name, img }) => {
 
     return (
-        <div>
+        <div className="card">
             <img className="card__image" src={`${img}`} alt=""/>
             <div className="card__item">
                 <h4 className="card__title">{name}</h4>

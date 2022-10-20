@@ -1,0 +1,42 @@
+._container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catalog-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 20px;
+  min-height: 90vh;
+
+  &__menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+
+    .list__item {
+      width: 100%;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      padding: 10px;
+    }
+  }
+
+  .catalog-list__card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+  }
+}

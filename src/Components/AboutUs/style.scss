@@ -1,5 +1,6 @@
 .page__about-us {
   width: 100%;
+  animation: show 1.5s ease-in;
 
   ._container {
     display: flex;
@@ -78,4 +79,10 @@
     background-size: cover;
     color: white;
   }
+}
+
+@keyframes show {
+  from {opacity: 0.3}
+  50% {opacity: 0.8}
+  to {opacity: 1}
 }

@@ -6,7 +6,8 @@
     "price": 2490,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3056076278.jpg",
     "sale": true,
-    "discount": 0.2
+    "discount": 0.2,
+    "category": "sarms"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "price": 2990,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055562721.jpg",
     "sale": true,
-    "discount": 0.2
+    "discount": 0.2,
+    "category": "sarms"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "price": 2990,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055562631.jpg",
     "sale": false,
-    "discount": 0
+    "discount": 0,
+    "category": "sarms"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "price": 5980,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3185865766.jpg",
     "sale": true,
-    "discount": 0.4
+    "discount": 0.4,
+    "category": "sarms"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "price": 1990,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055743355.jpg",
     "sale": false,
-    "discount": 0
+    "discount": 0,
+    "category": "pkt"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "price": 2390,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055639625.jpg",
     "sale": true,
-    "discount": 0.15
+    "discount": 0.15,
+    "category": "ecdysteron"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "price": 3500,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3145395560.jpg",
     "sale": true,
-    "discount": 0.1
+    "discount": 0.1,
+    "category": "pkt"
   },
   {
     "id": 8,
@@ -69,6 +76,57 @@
     "price": 2490,
     "img": "https://d2j6dbq0eux0bg.cloudfront.net/images/24984760/3055562661.jpg",
     "sale": false,
-    "discount": 0
+    "discount": 0,
+    "category": "sarms"
+  },
+  {
+    "id": 9,
+    "name": "DMHA (октодрин, octodrine) 30капс по 50мг от FROGTECH Platinum",
+    "descr": "Ментальная фокусировка. Повышение работоспособности. Увеличение продуктивности физических нагрузок. Сжигание жира.",
+    "price": 990,
+    "img": "https://d2j6dbq0eux0bg-cdn.ecwid.net/images/24984760/3055562691.jpg",
+    "sale": false,
+    "discount": 0,
+    "category": "energy"
+  },
+  {
+    "id": 10,
+    "name": "Lipo Star 60 caps (50 mg DMHA + 5 mg Yohimbine Hcl + 15 mg Synephrin) липо стар жиросжигатель от FROGTECH Platinum",
+    "descr": "Снижает аппетит Невероятная работоспособность. Помогает убрать жир в проблемных местах. Улучшает настроение.",
+    "price": 1590,
+    "img": "https://d2j6dbq0eux0bg-cdn.ecwid.net/images/24984760/3056076253.jpg",
+    "sale": false,
+    "discount": 0,
+    "category": "weight-loss"
+  },
+  {
+    "id": 11,
+    "name": "Alpha-GPC 50% 400mg 60 caps (альфа гпс) купить от FROGTECH Platinum",
+    "descr": "Улучшение памяти, антидепрессант. Влияет на либидо и увеличивает энергию. Восстановление межнейронных связей и нейротрансмиссии.",
+    "price": 1790,
+    "img": "https://d2j6dbq0eux0bg-cdn.ecwid.net/images/24984760/3055637956.jpg",
+    "sale": false,
+    "discount": 0,
+    "category": "nootrop"
+  },
+  {
+    "id": 12,
+    "name": "5 HTP premium 120mg 60 caps (5-гидрокситриптофан) купить от FROGTECH Platinum",
+    "descr": "Улучшает настроение. Снижает волнительность, агрессию. Увеличивает болевой порог. Существенно улучшает качество сна.",
+    "price": 1590,
+    "img": "https://d2j6dbq0eux0bg-cdn.ecwid.net/images/24984760/3055637971.jpg",
+    "sale": false,
+    "discount": 0,
+    "category": "good-dream"
+  },
+  {
+    "id": 13,
+    "name": "Omega 3 60% CONCENTRATE 240 капсул (Омега 3) купить от FROGTECH Green Line",
+    "descr": "Комплексно помогает организму во множестве процессов!",
+    "price": 650,
+    "img": "https://d2j6dbq0eux0bg-cdn.ecwid.net/images/24984760/1364527176.jpg",
+    "sale": false,
+    "discount": 0,
+    "category": "vitamins"
   }
 ]

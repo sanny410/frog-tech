@@ -2,7 +2,6 @@ import React from 'react'
 import {Route, Routes} from "react-router-dom";
 import './App.css';
 import MainPage from "./Components/MainPage/MainPage";
-import ProfileUser from "./Components/ProfileUser/ProfileUser";
 import Catalog from "./Components/Stock/Catalog";
 import Card from "./Components/Card/Card";
 import Delivery from "./Components/Delivery/Delivery";
@@ -19,8 +18,7 @@ function App() {
         <Routes>
             <Route exact path={'/'} element={<MainPage />}/>
             <Route path='/catalog' element={<Catalog />}/>
-            <Route path='/catalog/sarms' element={<CatalogList />}/>
-            <Route path='/profile' element={<ProfileUser />}/>
+            <Route path='/catalog/:category' element={<CatalogList />}/>
             <Route path='/stock' element={<Catalog />}/>
             <Route path='/card/:id' element={<Card />}/>
             <Route path='/delivery' element={<Delivery />}/>

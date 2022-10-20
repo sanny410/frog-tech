@@ -1,5 +1,6 @@
 .page__about-us {
   width: 100%;
+  animation: show 1.5s ease-in;
 }
 .page__about-us ._container {
   display: flex;
@@ -64,6 +65,18 @@
   background: url("../../assets/GreenLineFon.png") no-repeat center center;
   background-size: cover;
   color: white;
+}
+
+@keyframes show {
+  from {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
