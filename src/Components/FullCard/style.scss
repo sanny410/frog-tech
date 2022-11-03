@@ -1,0 +1,40 @@
+.full-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__title {
+    //align-self: center;
+    margin: 20px 0 40px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  &__photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    //align-self: center;
+    gap: 20px;
+    margin-bottom: 40px;
+
+    img {
+      display: block;
+      max-height: 400px;
+    }
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+
+    //.description__subtitle {
+    //  align-self: center;
+    //}
+  }
+}

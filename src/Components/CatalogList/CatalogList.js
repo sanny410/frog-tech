@@ -6,6 +6,7 @@ import './style.scss'
 import data from '../../data.json'
 
 const CatalogList = () => {
+
     const { category } = useParams();
     const [list, setList] = useState(data)
 
@@ -36,7 +37,7 @@ const CatalogList = () => {
                         <Link to={"/catalog/weight-loss"} className="list__item">
                             СНИЖЕНИЕ ВЕСА / ЖИРОСЖИГАТЕЛИ
                         </Link>
-                        <Link to={"/catalog/ecdysteron"} className="list__item">
+                        <Link to={"/catalog/ecdysterone"} className="list__item">
                             ЭКДИСТЕРОН
                         </Link>
                         <Link to={"/catalog/nootrop"} className="list__item">
@@ -53,7 +54,9 @@ const CatalogList = () => {
                 <section className="catalog-list__card-list">
                     {
                         list.map((card) => {
-                            return <Card key={card.id} descr={card.descr} name={card.name} img={card.img} />
+                            return <Card key={card.id} descr={card.descr}
+                                         name={card.name} img={card.img}
+                                         category={category} id={card.id}/>
                         })
                     }
                 </section>
