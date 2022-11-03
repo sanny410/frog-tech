@@ -15,7 +15,7 @@ const FullCard = () => {
 
     useEffect(() => {
         findCard()
-    }, [id])
+    })
 
 
     return (
@@ -46,6 +46,7 @@ const FullCard = () => {
                 <h3 className="description__subtitle">Способ применения</h3>
                 <p className="description__text">{card.modeOfApplication}</p>
             </div>
+            <p>БАД. Не является лекарством</p>
         </div>
     );
 };

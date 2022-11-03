@@ -10,6 +10,7 @@ import Contacts from "./Components/Contacts/Contacts";
 import CatalogList from "./Components/CatalogList/CatalogList";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import Page404 from "./Components/404Page/Page404";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/delivery' element={<Delivery />}/>
             <Route path="/about-us" element={<AboutUs />}/>
             <Route path="/contacts" element={<Contacts />}/>
+            <Route path="*" element={<Page404 />} />
         </Routes>
         <Footer />
     </div>

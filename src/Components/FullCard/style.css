@@ -1,0 +1,33 @@
+.full-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.full-card__title {
+  margin: 20px 0 40px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 20px;
+  color: #000000;
+}
+.full-card__photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-self: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.full-card__photos img {
+  display: block;
+  max-height: 400px;
+}
+.full-card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

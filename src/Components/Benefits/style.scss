@@ -1,17 +1,13 @@
 .app__benefits {
   min-height: 770px;
-  background-image: url("../../assets/WhyMeFon.png");
+  background-image: url("../../assets/WhyWeFon.png");
   background-size: 100%;
   background-repeat: no-repeat;
 
   .title {
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 42px;
-    margin-bottom: 90px;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
+    align-self: center;
+    color: white;
+    margin-bottom: 40px;
   }
 
   .benefits__list {

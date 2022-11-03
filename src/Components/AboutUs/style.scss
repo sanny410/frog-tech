@@ -9,25 +9,6 @@
     align-items: center;
   }
 
-
-  .title {
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 42px;
-    color: #000000;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-
-  .subtitle {
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 38px;
-    color: #000000;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-
   .about-us__brands {
     display: flex;
     flex-direction: row;
@@ -47,13 +28,6 @@
 
   .info {
     width: 40%;
-
-    .text {
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 30px;
-      margin-bottom: 25px;
-    }
   }
 
   .about-us {
@@ -70,6 +44,10 @@
     width: 100%;
     background: url("../../assets/icons/fonPlatina.png") no-repeat center center;
     background-size: cover;
+
+    .text {
+      margin-bottom: 20px;
+      }
     }
 
   .about-us__green-frog {
@@ -78,6 +56,12 @@
     background: url("../../assets/GreenLineFon.png") no-repeat center center;
     background-size: cover;
     color: white;
+
+    .text {
+      color: white;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
   }
 }
 
