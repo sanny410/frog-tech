@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/frog-tech/static/css/main.e83827fd.css",
-    "main.js": "/frog-tech/static/js/main.c3bd09eb.js",
-    "static/media/WhyMeFon.png": "/frog-tech/static/media/WhyMeFon.7ab8da36fe2e9679beb2.png",
+    "main.css": "/frog-tech/static/css/main.76e44ec7.css",
+    "main.js": "/frog-tech/static/js/main.f44a897b.js",
+    "static/media/WhyWeFon.png": "/frog-tech/static/media/WhyWeFon.38ae3191b75e7c17c91b.png",
     "static/media/GreenLineFon.png": "/frog-tech/static/media/GreenLineFon.2bab8eb3dc0cdfea2454.png",
     "static/media/fon.png": "/frog-tech/static/media/fon.525f2a6aa4eb565c13af.png",
     "static/media/fonPlatina.png": "/frog-tech/static/media/fonPlatina.96210e671870087bf758.png",
@@ -23,11 +23,11 @@
     "static/media/logo.png": "/frog-tech/static/media/logo.d1286c9912e9c824026f.png",
     "static/media/сдэк.png": "/frog-tech/static/media/сдэк.0c5c36c6a67fe5343904.png",
     "index.html": "/frog-tech/index.html",
-    "main.e83827fd.css.map": "/frog-tech/static/css/main.e83827fd.css.map",
-    "main.c3bd09eb.js.map": "/frog-tech/static/js/main.c3bd09eb.js.map"
+    "main.76e44ec7.css.map": "/frog-tech/static/css/main.76e44ec7.css.map",
+    "main.f44a897b.js.map": "/frog-tech/static/js/main.f44a897b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e83827fd.css",
-    "static/js/main.c3bd09eb.js"
+    "static/css/main.76e44ec7.css",
+    "static/js/main.f44a897b.js"
   ]
 }
