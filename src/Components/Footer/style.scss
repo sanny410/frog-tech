@@ -1,6 +1,15 @@
 .app__footer {
   background-color: #000000;
   min-height: 230px;
+  
+  @media (max-width: 576px) {
+    min-height: 320px;
+  }
+
+  .footer__text {
+    text-align: center;
+    margin-top: 10px;
+  }
 
   .footer__container {
     display: flex;
@@ -9,14 +18,29 @@
     align-items: center;
     gap: 20px;
     color: white;
+    margin-top: 20px;
 
     .menu__list {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: flex-start;
       align-items: flex-start;
       gap: 40px;
       color: white;
+      margin-bottom: 15px;
+
+      @media (max-width: 768px) {
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      @media (max-width: 576px) {
+        column-gap: 50px;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+      }
 
       .menu__item {
         display: flex;
@@ -33,9 +57,17 @@
           width: 30px;
           height: 30px;
         }
+
+        .contacts {
+          @media (max-width: 576px) {
+            display: flex;
+            flex-direction: column;
+          }
+        }
       }
     }
   }
+
   .copyright {
     display: flex;
     justify-content: center;

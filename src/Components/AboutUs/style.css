@@ -1,5 +1,82 @@
-.page__about-us {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #FFFFFF;
+  background-size: cover;
+}
+
+#root {
   width: 100%;
+  height: 100%;
+}
+
+._container {
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100%;
+  background: #9B9B99;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 5px 0;
+  color: white;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+p, h2, h3 {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: circle;
+}
+
+.title {
+  margin: 20px 0 10px;
+  font-weight: 600;
+  font-size: calc(22px + 8 * ((100vw - 320px) / 960));
+  line-height: 42px;
+  color: #000000;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: calc(14px + 8 * ((100vw - 320px) / 960));
+  line-height: 25px;
+  color: #000000;
+  margin: 15px 0 20px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: calc(12px + 8 * ((100vw - 320px) / 960));
+  line-height: 25px;
+  color: #000000;
+  margin: 0;
+}
+
+.list-item {
+  font-size: 1.2rem;
+  list-style-type: circle;
+}
+
+.page__about-us {
+  width: 100vw;
   animation: show 1.5s ease-in;
 }
 .page__about-us ._container {
@@ -19,13 +96,35 @@
   display: block;
   max-width: 300px;
 }
+@media (max-width: 830px) {
+  .page__about-us .about-us__brands img {
+    max-width: 200px;
+  }
+}
+@media (max-width: 520px) {
+  .page__about-us .about-us__brands img {
+    max-width: 100px;
+  }
+}
 .page__about-us .logo {
   margin: 25px;
 }
 .page__about-us .info {
+  height: 100%;
   width: 40%;
 }
+@media (max-width: 830px) {
+  .page__about-us .info {
+    width: 60%;
+  }
+}
+@media (max-width: 430px) {
+  .page__about-us .info {
+    width: 80%;
+  }
+}
 .page__about-us .about-us ._container {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -39,6 +138,8 @@
 }
 .page__about-us .about-us__platinum .text {
   margin-bottom: 20px;
+  font-size: calc(18px + 7 * ((100vw - 320px) / 960));
+  line-height: 30px;
 }
 .page__about-us .about-us__green-frog {
   min-height: 100vh;
@@ -47,10 +148,18 @@
   background-size: cover;
   color: white;
 }
+@media (max-width: 830px) {
+  .page__about-us .about-us__green-frog {
+    background: url("../../assets/green_mobil.png") no-repeat center center;
+    background-size: cover;
+  }
+}
 .page__about-us .about-us__green-frog .text {
   color: white;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  font-size: calc(18px + 7 * ((100vw - 320px) / 960));
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @keyframes show {

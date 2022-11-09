@@ -1,7 +1,10 @@
+@import "../../index.scss";
+
 .app__benefits {
-  min-height: 770px;
+  height: 90vh;
+  width: 100vw;
   background-image: url("../../assets/WhyWeFon.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 
   .title {
@@ -11,19 +14,19 @@
   }
 
   .benefits__list {
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 146px;
+    margin-bottom: 20px;
 
     .list__item {
+      @include adaptiv-font(24, 14);
       font-weight: 600;
-      font-size: 26px;
       line-height: 32px;
       color: #FFFFFF;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
 
   }

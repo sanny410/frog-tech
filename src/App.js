@@ -1,6 +1,6 @@
 import React from 'react'
 import {Route, Routes} from "react-router-dom";
-import './App.css';
+import './App.scss';
 import MainPage from "./Components/MainPage/MainPage";
 import Catalog from "./Components/Stock/Catalog";
 import FullCard from "./Components/FullCard/FullCard";

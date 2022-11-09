@@ -45,8 +45,8 @@ const FullCard = () => {
                 </ul>
                 <h3 className="description__subtitle">Способ применения</h3>
                 <p className="description__text">{card.modeOfApplication}</p>
+                <p className="description__text">БАД. Не является лекарством</p>
             </div>
-            <p>БАД. Не является лекарством</p>
         </div>
     );
 };

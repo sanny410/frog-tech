@@ -22,7 +22,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </nav>
-                <div>Получи бесплатную консультацию и запроси оптовый прайс!</div>
+                <p className="footer__text">Получи бесплатную консультацию и запроси оптовый прайс!</p>
             <ul className="menu__list">
                 <li className="menu__item contacts">
                             <img className="logo" src={require("../../assets/icons/email.png")} alt="" />
@@ -35,7 +35,7 @@ const Footer = () => {
             </ul>
             </div>
             <div className="copyright _container">
-                <p>© FROGTECH.RU - официальный сайт добавок FROG TECH</p>
+                <p className="footer__text">© FROGTECH.RU - официальный сайт добавок FROG TECH</p>
             </div>
         </footer>
     );

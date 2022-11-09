@@ -12,17 +12,34 @@
   text-align: center;
 }
 .app-catalog .catalog__list {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  align-items: stretch;
   gap: 20px 15px;
   margin-bottom: 20px;
+  align-content: center;
+}
+@media (max-width: 960px) {
+  .app-catalog .catalog__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 830px) {
+  .app-catalog .catalog__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 530px) {
+  .app-catalog .catalog__list {
+    grid-template-columns: 1fr;
+  }
 }
 .app-catalog .catalog__list .list__item {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  margin: 0 auto;
   padding: 20px;
   max-width: 340px;
   min-height: 420px;

@@ -13,12 +13,11 @@ const TopSale = () => {
                 <div className="top-sale__list">
                     {list.map(item => {
                         return <Card key={item.id}
+                                     id={item.id}
                                      name={item.name}
                                      descr={item.descr}
-                                     price={item.price}
                                      img={item.img}
-                                     sale={item.sale}
-                                     discount={item.discount}
+                                     category={item.category}
                         />
                     })}
                 </div>

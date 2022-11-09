@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -15,7 +15,7 @@ body {
 
 ._container {
   max-width: 1320px;
-  padding: 20px 20px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -49,23 +49,23 @@ li {
 .title {
   margin: 20px 0 10px;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: calc(22px + 8 * ((100vw - 320px) / 960));
   line-height: 42px;
   color: #000000;
 }
 
 .subtitle {
   font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 29px;
+  font-size: calc(14px + 8 * ((100vw - 320px) / 960));
+  line-height: 25px;
   color: #000000;
   margin: 15px 0 20px;
 }
 
 .text {
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 23px;
+  font-size: calc(12px + 8 * ((100vw - 320px) / 960));
+  line-height: 25px;
   color: #000000;
   margin: 0;
 }
@@ -76,73 +76,123 @@ li {
 }
 
 .app-header {
-  width: 100%;
-  max-height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
+  min-height: 100px;
+  padding: 10px;
   background: #000000;
   border-color: black;
 }
-@media (max-width: 380px) {
+@media (max-width: 768px) {
   .app-header {
-    flex-direction: column;
+    min-height: 130px;
   }
 }
-.app-header .header_menu {
+@media (max-width: 576px) {
+  .app-header {
+    min-height: 220px;
+  }
+}
+.app-header_container {
+  display: grid;
+  grid-template-columns: 200px 1fr 300px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 992px) {
+  .app-header_container {
+    grid-template-columns: 150px 1fr 200px;
+  }
+}
+@media (max-width: 768px) {
+  .app-header_container {
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .app-header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.app-header_container .header-logo {
+  max-width: 230px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .app-header_container .header-logo {
+    margin: 0 auto;
+    width: 200px;
+  }
+}
+.app-header_container .header_menu {
   width: 100%;
 }
-.app-header .menu__list {
+.app-header_container .menu__list {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
-  font-size: calc(12px + 6 * ((100vw - 320px) / 960));
+  gap: 10px;
+  font-size: calc(16px + 4 * ((100vw - 320px) / 960));
   border-color: black;
 }
-.app-header .menu__list .header__contacts {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 10px;
-  font-size: 2rem;
+@media (max-width: 768px) {
+  .app-header_container .menu__list {
+    gap: 10px;
+  }
 }
-.app-header .menu__list .menu__item {
+@media (max-width: 992px) {
+  .app-header_container .menu__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+}
+.app-header_container .menu__list .menu__item {
+  font-size: calc(18pxpx + 8px * ((100vw - 320px) / 960));
   list-style-type: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
   line-height: 24px;
   color: white;
 }
-.app-header .menu__list .menu__item.header__contacts {
+.app-header_container .menu__list .menu__item a {
+  color: #FFFFFF;
+}
+.app-header_container .header__contacts {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
-  font-size: 1.5rem;
   font-weight: bold;
-}
-.app-header .menu__list .menu__item a {
-  color: #FFFFFF;
-}
-.app-header .menu__list .menu__item .header-logo {
-  max-width: 230px;
-  height: auto;
-}
-.app-header .menu__list .menu__item button {
-  background: linear-gradient(186.38deg, #000000 49.97%, #FFFFFF 94.97%);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
   color: white;
-  padding: 7px 24px;
 }
-.app-header .menu__list .menu__item:not(:first-child) {
-  margin-left: 30px;
+@media (max-width: 768px) {
+  .app-header_container .header__contacts {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.app-header_container .header__contacts .contact {
+  font-size: 22px;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .app-header_container .header__contacts .contact {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .app-header_container .header__contacts .contact {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
