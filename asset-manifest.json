@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/frog-tech/static/css/main.31e01332.css",
-    "main.js": "/frog-tech/static/js/main.632ac106.js",
+    "main.css": "/frog-tech/static/css/main.65a3a620.css",
+    "main.js": "/frog-tech/static/js/main.33458511.js",
     "static/media/WhyWeFon.png": "/frog-tech/static/media/WhyWeFon.38ae3191b75e7c17c91b.png",
     "static/media/GreenLineFon.png": "/frog-tech/static/media/GreenLineFon.2bab8eb3dc0cdfea2454.png",
     "static/media/fon.png": "/frog-tech/static/media/fon.525f2a6aa4eb565c13af.png",
     "static/media/green_mobil.png": "/frog-tech/static/media/green_mobil.00888883ed51af9f1be1.png",
     "static/media/fonPlatina.png": "/frog-tech/static/media/fonPlatina.96210e671870087bf758.png",
     "static/media/fon_mobil.png": "/frog-tech/static/media/fon_mobil.d05c7e154e269da1dbdf.png",
+    "static/media/fon_mobil_benefits.png": "/frog-tech/static/media/fon_mobil_benefits.72f7e6ab11c8e02b01d2.png",
     "static/media/oplata.png": "/frog-tech/static/media/oplata.5400ea4b45a827f0d739.png",
     "static/media/lgd.jpg": "/frog-tech/static/media/lgd.f6dc43f5f11bab443cb6.jpg",
     "static/media/baicalLogo.png": "/frog-tech/static/media/baicalLogo.612c812fe9ad0d3b20fb.png",
@@ -25,11 +26,11 @@
     "static/media/logo.png": "/frog-tech/static/media/logo.d1286c9912e9c824026f.png",
     "static/media/сдэк.png": "/frog-tech/static/media/сдэк.0c5c36c6a67fe5343904.png",
     "index.html": "/frog-tech/index.html",
-    "main.31e01332.css.map": "/frog-tech/static/css/main.31e01332.css.map",
-    "main.632ac106.js.map": "/frog-tech/static/js/main.632ac106.js.map"
+    "main.65a3a620.css.map": "/frog-tech/static/css/main.65a3a620.css.map",
+    "main.33458511.js.map": "/frog-tech/static/js/main.33458511.js.map"
   },
   "entrypoints": [
-    "static/css/main.31e01332.css",
-    "static/js/main.632ac106.js"
+    "static/css/main.65a3a620.css",
+    "static/js/main.33458511.js"
   ]
 }
