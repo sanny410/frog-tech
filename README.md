@@ -1,6 +1,7 @@
 SPA на React.js
 -----------------
 1. Сайт для бренда Frog tech. 
+2. Сделана адаптация под все виды устройств.
 2. В проекте используются: react-router-dom, react-hooks, SCSS. 
 3. Данные подтягиваются из локального data.json файла.
 4. Макет на Figma создан самостоятельно с нуля: https://www.figma.com/file/rHpxxUOTTxuvmWEitP0R6p/FrogTech-shop?node-id=0%3A1
