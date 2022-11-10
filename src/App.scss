@@ -1,0 +1,13 @@
+.App {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100px 1fr 200px;
+
+    @media (max-width: 768px) {
+        grid-template-rows: 180px 1fr 200px;
+    }
+
+    @media (max-width: 576px) {
+        grid-template-rows: 220px 1fr 200px;
+    }
+}

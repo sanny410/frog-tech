@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 body {
   width: 100vw;
-  height: 100vh;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background: #FFFFFF;
@@ -56,15 +55,15 @@ li {
 
 .subtitle {
   font-weight: 500;
-  font-size: calc(14px + 8 * ((100vw - 320px) / 960));
+  font-size: calc(14px + 10 * ((100vw - 320px) / 960));
   line-height: 25px;
   color: #000000;
-  margin: 15px 0 20px;
+  margin: 20px 0 10px;
 }
 
 .text {
   font-weight: 400;
-  font-size: calc(12px + 8 * ((100vw - 320px) / 960));
+  font-size: calc(16px + 4 * ((100vw - 320px) / 960));
   line-height: 25px;
   color: #000000;
   margin: 0;
@@ -78,9 +77,18 @@ li {
 .app__benefits {
   height: 90vh;
   width: 100vw;
-  background-image: url("../../assets/WhyWeFon.png");
+  background-image: url("../../assets/background-desktop_benefits.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+  .app__benefits {
+    background-image: url("../../assets/background-mobil_benefits.png");
+  }
+}
+.app__benefits ._container {
+  display: flex;
+  flex-direction: column;
 }
 .app__benefits .title {
   align-self: center;
@@ -95,12 +103,18 @@ li {
   align-items: flex-start;
   margin-bottom: 20px;
 }
+@media (max-width: 576px) {
+  .app__benefits .benefits__list {
+    width: 100%;
+  }
+}
 .app__benefits .benefits__list .list__item {
-  font-size: calc(14px + 10 * ((100vw - 320px) / 960));
+  font-size: calc(18px + 6 * ((100vw - 320px) / 960));
   font-weight: 600;
   line-height: 32px;
   color: #FFFFFF;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */

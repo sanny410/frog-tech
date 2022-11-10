@@ -24,7 +24,7 @@ const FullCard = () => {
             <div className="full-card__photos">
                 {
                     card.img.map((img, i) => {
-                        return <img key={i} src={`${img}`} alt="" />
+                        return <img className="good-photo" key={i} src={`${img}`} alt="" />
                     })
                 }
             </div>

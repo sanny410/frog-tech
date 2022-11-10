@@ -53,35 +53,35 @@
   border-radius: 30px;
 }
 .app-catalog .catalog__list .list__item.lgd {
-  background: url("../../assets/goods/lgd.jpg") center;
+  background: url("../../assets/goods-category/lgd.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item.icariin {
-  background: url("../../assets/goods/icariin.jpg") center;
+  background: url("../../assets/goods-category/icariin.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item.dmba {
-  background: url("../../assets/goods/dmba.jpg") center;
+  background: url("../../assets/goods-category/dmba.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item.lipo-star {
-  background: url("../../assets/goods/lipo-star.jpg") center;
+  background: url("../../assets/goods-category/lipo-star.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item.ecd {
-  background: url("../../assets/goods/ecd.jpg") center;
+  background: url("../../assets/goods-category/ecd.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item.alpha-gpc {
-  background: url("../../assets/goods/alpha-gpc.jpg") center;
+  background: url("../../assets/goods-category/alpha-gpc.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item.htp {
-  background: url("../../assets/goods/5-htp.jpg") center;
+  background: url("../../assets/goods-category/5-htp.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item.pau-d-arco {
-  background: url("../../assets/goods/pau-d-arco.jpg") center;
+  background: url("../../assets/goods-category/pau-d-arco.jpg") center;
   background-size: cover;
 }
 .app-catalog .catalog__list .list__item p {

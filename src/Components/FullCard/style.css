@@ -19,9 +19,20 @@
   gap: 20px;
   margin-bottom: 40px;
 }
+@media (max-width: 576px) {
+  .full-card__photos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .full-card__photos img {
   display: block;
   max-height: 400px;
+}
+@media (max-width: 576px) {
+  .full-card__photos img {
+    margin: 0 auto;
+  }
 }
 .full-card__description {
   display: flex;

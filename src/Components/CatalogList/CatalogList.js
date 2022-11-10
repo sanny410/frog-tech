@@ -21,7 +21,7 @@ const CatalogList = () => {
 
     return (
         <div className="_container">
-            <h2>Каталог</h2>
+            <h2 className="title">Каталог</h2>
             <div className="catalog-list ">
                 <nav>
                     <ul className="catalog-list__menu">

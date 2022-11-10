@@ -5,7 +5,12 @@
 }
 @media (max-width: 768px) {
   .App {
-    grid-template-rows: 200px 1fr 200px;
+    grid-template-rows: 180px 1fr 200px;
+  }
+}
+@media (max-width: 576px) {
+  .App {
+    grid-template-rows: 220px 1fr 200px;
   }
 }
 

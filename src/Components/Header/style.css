@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 body {
   width: 100vw;
-  height: 100vh;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background: #FFFFFF;
@@ -56,15 +55,15 @@ li {
 
 .subtitle {
   font-weight: 500;
-  font-size: calc(14px + 8 * ((100vw - 320px) / 960));
+  font-size: calc(14px + 10 * ((100vw - 320px) / 960));
   line-height: 25px;
   color: #000000;
-  margin: 15px 0 20px;
+  margin: 20px 0 10px;
 }
 
 .text {
   font-weight: 400;
-  font-size: calc(12px + 8 * ((100vw - 320px) / 960));
+  font-size: calc(16px + 4 * ((100vw - 320px) / 960));
   line-height: 25px;
   color: #000000;
   margin: 0;
@@ -76,15 +75,14 @@ li {
 }
 
 .app-header {
-  width: 100vw;
+  width: 100%;
   min-height: 100px;
-  padding: 10px;
   background: #000000;
   border-color: black;
 }
 @media (max-width: 768px) {
   .app-header {
-    min-height: 130px;
+    min-height: 150px;
   }
 }
 @media (max-width: 576px) {
@@ -102,13 +100,15 @@ li {
 @media (max-width: 992px) {
   .app-header_container {
     grid-template-columns: 150px 1fr 200px;
+    gap: 10px;
   }
 }
 @media (max-width: 768px) {
   .app-header_container {
     grid-template-rows: 50px 50px 50px;
     grid-template-columns: 1fr;
-    gap: 5px;
+    align-content: center;
+    gap: 10px;
   }
 }
 @media (max-width: 576px) {
@@ -125,8 +125,14 @@ li {
 }
 @media (max-width: 768px) {
   .app-header_container .header-logo {
-    margin: 0 auto;
+    margin: 20px auto 0;
     width: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .app-header_container .header-logo {
+    grid-template-rows: 220px 1fr 200px;
+    margin: 0 auto;
   }
 }
 .app-header_container .header_menu {
@@ -139,7 +145,7 @@ li {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  font-size: calc(16px + 4 * ((100vw - 320px) / 960));
+  font-size: calc(20px + 0 * ((100vw - 320px) / 960));
   border-color: black;
 }
 @media (max-width: 768px) {
@@ -170,6 +176,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 10px;
   font-weight: bold;
   color: white;
@@ -181,18 +188,8 @@ li {
   }
 }
 .app-header_container .header__contacts .contact {
-  font-size: 22px;
+  font-size: calc(16px + 6 * ((100vw - 320px) / 960));
   text-align: center;
-}
-@media (max-width: 992px) {
-  .app-header_container .header__contacts .contact {
-    font-size: 18px;
-  }
-}
-@media (max-width: 768px) {
-  .app-header_container .header__contacts .contact {
-    font-size: 14px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

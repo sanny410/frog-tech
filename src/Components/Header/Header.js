@@ -8,7 +8,7 @@ const Header = () => {
         <div className="app-header">
             <div className="app-header_container _container">
                 <div className="header-logo">
-                    <Link to="/"><img className="hlogo" src={require('../../assets/icons/output-onlinepngtools.png')} alt="" /></Link>
+                    <Link to="/"><img className="hlogo" src={require('../../assets/icons/white-logo.png')} alt="" /></Link>
                 </div>
                 <nav className="header_menu">
                     <ul className="menu__list">
@@ -27,8 +27,8 @@ const Header = () => {
                     </ul>
                 </nav>
                 <div className="header__contacts">
-                    <div className="contact">+79623832239 - Опт</div>
-                    <div className="contact">+79673410183 - Розница</div>
+                    <div className="contact">+79623832239 Опт</div>
+                    <div className="contact">+79673410183 Розница</div>
                 </div>
             </div>
         </div>

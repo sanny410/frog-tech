@@ -2,7 +2,7 @@ import React from 'react'
 import {Route, Routes} from "react-router-dom";
 import './App.scss';
 import MainPage from "./Components/MainPage/MainPage";
-import Catalog from "./Components/Stock/Catalog";
+import Catalog from "./Components/MainCatalog/Catalog";
 import FullCard from "./Components/FullCard/FullCard";
 import Delivery from "./Components/Delivery/Delivery";
 import AboutUs from "./Components/AboutUs/AboutUs";

@@ -4,13 +4,13 @@
   align-items: center;
   height: 90vh;
   width: 100vw;
-  background-image: url("../../assets/fon.png");
+  background-image: url("../../assets/background-main-desktop.png");
   background-size: cover;
   border-color: black;
 }
 @media (max-width: 830px) {
   .app__home-page {
-    background-image: url("../../assets/fon_mobil.png");
+    background-image: url("../../assets/background-green_mobil.png");
   }
 }
 .app__home-page .home-page {

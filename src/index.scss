@@ -10,7 +10,6 @@ $maxWidth: 1280;
 
 body {
   width: 100vw;
-  height: 100vh;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   background: #FFFFFF;
@@ -66,15 +65,15 @@ li {
 
 .subtitle {
   font-weight: 500;
-  @include adaptiv-font(22, 14);
+  @include adaptiv-font(24, 14);
   line-height: 25px;
   color: #000000;
-  margin: 15px 0 20px;
+  margin: 20px 0 10px;
 }
 
 .text {
   font-weight: 400;
-  @include adaptiv-font(20, 12);
+  @include adaptiv-font(20, 16);
   line-height: 25px;
   color: #000000;
   margin: 0;

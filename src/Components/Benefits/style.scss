@@ -3,9 +3,18 @@
 .app__benefits {
   height: 90vh;
   width: 100vw;
-  background-image: url("../../assets/WhyWeFon.png");
+  background-image: url("../../assets/background-desktop_benefits.png");
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media (max-width: 576px) {
+    background-image: url("../../assets/background-mobil_benefits.png");
+  }
+
+  ._container {
+    display: flex;
+    flex-direction: column;
+  }
 
   .title {
     align-self: center;
@@ -21,13 +30,17 @@
     align-items: flex-start;
     margin-bottom: 20px;
 
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+
     .list__item {
-      @include adaptiv-font(24, 14);
+      @include adaptiv-font(24, 18);
       font-weight: 600;
       line-height: 32px;
       color: #FFFFFF;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
+      list-style-type: none;
     }
-
   }
 }
